@@ -1,7 +1,7 @@
-<<<<<<< HEAD
+
 # FruitQualityAI
 Deep learning–based fresh vs. rotten fruit detection with a 9-layer Sequential CNN and transfer learning baselines (InceptionV3, ResNet50, VGG-16), plus a conveyor-belt + Arduino servo prototype for automated sorting.
-=======
+
 # Fruits Quality Detection (Final Year Project)
 
 A complete, end-to-end project that detects **fresh vs. rotten** fruits using Convolutional Neural Networks (CNNs) and transfer learning (ResNet50, VGG16, InceptionV3). It also includes a hardware prototype with a conveyor belt, camera capture, Arduino (servo) actuation, and serial control.
