@@ -1,6 +1,10 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+<<<<<<< HEAD
 *.py[codz]
+=======
+*.py[cod]
+>>>>>>> 979cc90 (Initial commit: fruits quality detection (final year project))
 *$py.class
 
 # C extensions
@@ -46,6 +50,7 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *.cover
+<<<<<<< HEAD
 *.py.cover
 .hypothesis/
 .pytest_cache/
@@ -125,6 +130,26 @@ ipython_config.py
 .pixi
 
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+=======
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+.notebooks
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+>>>>>>> 979cc90 (Initial commit: fruits quality detection (final year project))
 __pypackages__/
 
 # Celery stuff
@@ -136,7 +161,10 @@ celerybeat.pid
 
 # Environments
 .env
+<<<<<<< HEAD
 .envrc
+=======
+>>>>>>> 979cc90 (Initial commit: fruits quality detection (final year project))
 .venv
 env/
 venv/
@@ -162,6 +190,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+<<<<<<< HEAD
 # pytype static type analyzer
 .pytype/
 
@@ -205,3 +234,26 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+=======
+# VSCode
+.vscode/
+
+# Mac/OS
+.DS_Store
+
+# Data, models, logs
+data/raw/
+data/interim/
+data/processed/
+models/
+logs/
+checkpoints/
+
+# Images/plots
+*.png
+*.jpg
+*.jpeg
+
+# Arduino build
+hardware/build/
+>>>>>>> 979cc90 (Initial commit: fruits quality detection (final year project))
